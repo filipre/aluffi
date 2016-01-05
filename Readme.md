@@ -1,6 +1,8 @@
 # aluffi
 Solutions to Paolo Aluffi's *Algebra: Chapter 0*.
 
+PDF can be find inside the 'release' branch.
+
 *Algebra: Chapter 0* is a highly regarded introduction to abstract algebra and category theory. The writing is fantastic and the exercises are very fun; it's like CS 135 assignments in that they're not too difficult (compare: advanced math courses), but very insightful and rigorous (compare: CS 251).
 
 I am doing this for two reasons:
