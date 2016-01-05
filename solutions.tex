@@ -82,7 +82,7 @@
 % After:
 % I. Section
 % I.1. Subsection
-\renewcommand{\thesection}{\Roman{section}} 
+\renewcommand{\thesection}{\Roman{section}}
 
 % Renewing the \qedsymbol command changes the QED symbol. This QED symbol is
 % automatically used by the proof environment.
@@ -154,7 +154,7 @@ relation $\sim$ such that $\mathscr{P} = \mathscr{P}_{\sim}$. [\S1.5]
 \begin{solution}
 Define, for $a,b\in S$, $a\sim b$ if and only if there exists
 an $X\in\mathscr{P}$ such that $a\in X$ and $b\in X$. We will show that
-$\mathscr{P} = \mathscr{P}_{\sim}$. 
+$\mathscr{P} = \mathscr{P}_{\sim}$.
 
 \begin{enumerate}
 \item ($\mathscr{P}\subseteq\mathscr{P}_{\sim}$). Let $X\in \mathscr{P}$; we want to
@@ -300,21 +300,14 @@ $\rhd$ Prove statement (2) in Proposition 2.1. You may assume that given a
 family of disjoint subsets of a set, there is a way to choose one element in
 each member of the family. [\S2.5, V3.3]
 
-<<<<<<< HEAD
-\begin{quote} \textbf{Proposition 2.1.} Assume $A\neq\emptyset$, and let $f:A\to B$ be a function. Then
-=======
 \begin{quote} \textbf{Proposition 2.1.} Assume $A\neq\emptyset$, and let $f:A\to
 B$ be a function. Then
->>>>>>> srcreigh/master
 (1) $f$ has a left-inverse if and only if $f$ is injective; and \\
 (2) $f$ has a right-inverse if and only if $f$ is surjective.
 \end{quote}
 \end{problem}
 
-<<<<<<< HEAD
-=======
 \begin{solution}
->>>>>>> srcreigh/master
 Let $A\neq\emptyset$ and suppose $f:A\to B$ is a function.
 
 ($\implies$) Suppose there exists a function $g$ that is a right-inverse of $f$.
@@ -474,7 +467,7 @@ r\in[0,1)\subseteq\mathbf{R}}, \]
 %
 and it is here when we notice uncanny similarities to exercise \textbf{1.6}
 where $x\sim y$, for $x,y\in\mathbf{R}$, if and only if $x-y\in\mathbf{Z}$, in
-which we could have written $\mathscr{P}_{\sim}$ in the same way. 
+which we could have written $\mathscr{P}_{\sim}$ in the same way.
 
 Now we will explain the mysterious $\tilde{f}:\mathscr{P}_{\sim}\to\im f$. This
 function is taking each \textit{equivalence class} $[x]_{\sim}$ over the reals
@@ -629,13 +622,8 @@ this function. Precisely, we define
 to be
 %
 \[ \circ_{\mathsf{C}^{op}}(f,g) = \circ_{\mathsf{C}}(g,f) \]
-<<<<<<< HEAD
-
-for all $f\in\Hom_{\mathsf{C}^{op}}(A,B)$ and $g\in\Hom_{\mathsf{C}^{op}}(B,C)$.
-=======
 %
 for all $f\in\Hom_{\mathsf{C}^{op}}(A,B)$ and $f\in\Hom_{\mathsf{C}^{op}}(B,C)$.
->>>>>>> srcreigh/master
 The domain and codomain of $\circ_{\mathsf{C}}$ and $\circ_{\mathsf{C}^{op}}$
 match (up to transposing the coordinates in the domain) due to the equality of
 $\Hom_{\mathsf{C}}(A,B)$ with $\Hom_{\mathsf{C}^{op}}(B,A)$.
@@ -660,7 +648,7 @@ Finally, for any morphism $f\in\Hom_{\mathsf{C}^{op}}(A,B)$ we have,
 %
 hence the identities are ``identities with respect to composition''. Last, for
 objects $A,B,C,D\in\Obj(\mathsf{C})$ where $A\neq C$ and $B\neq D$,
-clearly $\Hom_{\mathsf{C}}(B,A)\cap\Hom_{\mathsf{C}}(D,C)=\emptyset$ is true iff 
+clearly $\Hom_{\mathsf{C}}(B,A)\cap\Hom_{\mathsf{C}}(D,C)=\emptyset$ is true iff
 $\Hom_{\mathsf{C^{op}}}(A,B)\cap\Hom_{\mathsf{C^{op}}}(C,D)=\emptyset$. Hence
 $\mathsf{C}^{op}$ is a category.
 \end{solution}
@@ -914,7 +902,7 @@ then diagrams:
 \[\begin{tikzcd}[row sep=tiny]
 A \arrow[dr, "f"]  &   \\
                    & Z \\
-B \arrow[ur, "g"'] & 
+B \arrow[ur, "g"'] &
 \end{tikzcd}\]
 %
 Namely, tuples $(Z,f,g)$ where $Z\in\Obj(\C),g\in\Hom_\C(A,Z)$, and
