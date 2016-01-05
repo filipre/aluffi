@@ -17,3 +17,5 @@ deploy:
   skip_cleanup: true
   on:
     repo: filipre/aluffi
+    tags: true
+    all_branches: true
